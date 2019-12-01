@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- font link -->
+    <link rel="stylesheet" href="fontawesome/css/all.css">
+    <!-- font link -->
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <!-- plugin link -->
+    <link rel="stylesheet" href="css/lightBox.style.css">
+    <!-- plugin link -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+
+    <title>jQuary Plugin</title>
+  </head>
+  <body>
+  <!-- plugin -->
+  <section class="plugin">
+    <div class="container">
+      <div class="row">
+
+
+      <!-- <a href="cv/CURRICULAM VITAE.pdf" rel="nofollow" download><button type="button" class="btn btn-dark" terget="blank">
+     Download
+     </button></a>
+<div class="content">
+      <img src="https://picsum.photos/300/300/?random" />
+    </div>
+    <div class="loader-wrapper">
+      <span class="loader"><span class="loader-inner"></span></span>
+    </div>
+ -->
+
+        <div class="col-12">
+              <div class="galary">
+                <ul id="WS-LiSli" class="grid">
+                <li>
+                    <img title="Title 1" src="https://source.unsplash.com/wYcIMh-l3TQ/1280x1960" data-description="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ">
+                </li>
+                <li>
+                    <img title="Title 2" src="https://source.unsplash.com/p2Snr9Gr4rM/640x460" data-description="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ">
+                </li>
+                <li>
+                    <img title="Title 3" src="https://source.unsplash.com/2qTmseoxJsk/640x460" data-description="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ">
+                </li>
+                <li>
+                    <img title="Title 4" src="https://source.unsplash.com/12M-FwSWbs8/640x460" data-description="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ">
+                </li>
+                <li>
+                    <img title="Title 5" src="https://source.unsplash.com/rFMcYqev_W0/640x460" data-description="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ">
+                </li>
+        </ul>
+              </div>
+        </div>
+        
+
+        
+      </div>
+    </div>
+  </section>
+  <!-- plugin -->
+    
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery.min.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script> -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- plugin link -->
+    <script src="js/lightbox.js"></script>
+    <!-- plugin link -->
+    <script src="js/script.js"></script>
+    <script src="js/jquery.easings.min.js"></script>
+    <script>
+    $(function() {
+        $('#WS-LiSli').WS_lightbox_free({
+            'enable' : ['close', 'arrows'],
+            buttons : {
+                size          : 40,
+                style         : 'square', // ( default, square, circle, rounded )
+                color         : 'black',
+                color_icon    : 'white',
+                border_width  : 0,
+                border_color  : '',
+                opacity       : .5,
+                hover_opacity : 1
+            },
+            arrows : {
+                position      : 'attached', // ( inside, outside, attached )
+                style         : 'svelt', // (default, square, circle, rounded, svelt)
+                icon_style    : 'angle', // (default, caret, angle, chevron)
+                icon_size     : 20,
+                opacity       : .5,
+                hover_effect  : 'shrink', // (zoom, shrink, translate)
+                hover_opacity : .8
+            },
+            image : {
+                border_radius : 0,
+                border_color : '',
+                border_width : 0,
+                bg : 'none'
+            },
+            background : {
+                filter : 'image',
+                opacity : .5
+            },
+            display_velocity : 'low',
+            slide_velocity : 'fast'
+        });
+
+    });
+    </script>
+  </body>
+</html>
